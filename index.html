@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novandri</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <i class="fas fa-brain"></i>
+                <span>Novandri</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#features">Features</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact" class="cta-link">Get Started</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="neural-network-bg">
+            <svg viewBox="0 0 400 400" class="network-svg-bg">
+                <!-- Connection lines -->
+                <line class="connection connection-1" x1="80" y1="80" x2="200" y2="120"></line>
+                <line class="connection connection-2" x1="80" y1="80" x2="200" y2="200"></line>
+                <line class="connection connection-3" x1="80" y1="80" x2="200" y2="280"></line>
+                <line class="connection connection-4" x1="80" y1="200" x2="200" y2="120"></line>
+                <line class="connection connection-5" x1="80" y1="200" x2="200" y2="200"></line>
+                <line class="connection connection-6" x1="80" y1="200" x2="200" y2="280"></line>
+                <line class="connection connection-7" x1="80" y1="320" x2="200" y2="120"></line>
+                <line class="connection connection-8" x1="80" y1="320" x2="200" y2="200"></line>
+                <line class="connection connection-9" x1="80" y1="320" x2="200" y2="280"></line>
+                
+                <line class="connection connection-10" x1="200" y1="120" x2="200" y2="200"></line>
+                <line class="connection connection-11" x1="200" y1="200" x2="200" y2="280"></line>
+                <line class="connection connection-12" x1="200" y1="120" x2="200" y2="280"></line>
+                
+                <line class="connection connection-13" x1="200" y1="120" x2="320" y2="80"></line>
+                <line class="connection connection-14" x1="200" y1="120" x2="320" y2="200"></line>
+                <line class="connection connection-15" x1="200" y1="120" x2="320" y2="320"></line>
+                <line class="connection connection-16" x1="200" y1="200" x2="320" y2="80"></line>
+                <line class="connection connection-17" x1="200" y1="200" x2="320" y2="200"></line>
+                <line class="connection connection-18" x1="200" y1="200" x2="320" y2="320"></line>
+                <line class="connection connection-19" x1="200" y1="280" x2="320" y2="80"></line>
+                <line class="connection connection-20" x1="200" y1="280" x2="320" y2="200"></line>
+                <line class="connection connection-21" x1="200" y1="280" x2="320" y2="320"></line>
+                
+                <!-- Input layer nodes -->
+                <circle class="neuron-bg input-layer-bg" cx="80" cy="80" r="8"></circle>
+                <circle class="neuron-bg input-layer-bg" cx="80" cy="200" r="8"></circle>
+                <circle class="neuron-bg input-layer-bg" cx="80" cy="320" r="8"></circle>
+                
+                <!-- Hidden layer nodes -->
+                <circle class="neuron-bg hidden-layer-bg" cx="200" cy="120" r="8"></circle>
+                <circle class="neuron-bg hidden-layer-bg" cx="200" cy="200" r="8"></circle>
+                <circle class="neuron-bg hidden-layer-bg" cx="200" cy="280" r="8"></circle>
+                
+                <!-- Output layer nodes -->
+                <circle class="neuron-bg output-layer-bg" cx="320" cy="80" r="8"></circle>
+                <circle class="neuron-bg output-layer-bg" cx="320" cy="200" r="8"></circle>
+                <circle class="neuron-bg output-layer-bg" cx="320" cy="320" r="8"></circle>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1><span class="highlight">Novandri</span></h1>
+                <h2>Machine Learning Development Tool<span class="highlight"></span></h2>
+                <p>Build your own Machine Learning models. Train, deploy, and manage your AI models with your own datasets. No coding required.</p>
+                <button class="btn btn-primary" onclick="redirectToStreamlit()">Build Your Machine Learning</button>
+                <p class="secondary-text">Start building intelligent models today</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2>Powerful Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Upload Your Dataset</h3>
+                    <p>Easily upload your own datasets in various formats. Our tool supports CSV and Excel.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3>Automated Training</h3>
+                    <p>Train machine learning models with intelligent algorithms. Optimize hyperparameters automatically.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Real-time Analytics</h3>
+                    <p>Monitor model performance with real-time metrics and visualizations during training.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cube"></i>
+                    </div>
+                    <h3>Model Deployment</h3>
+                    <p>Deploy your trained models with a single click. Integrate with your applications easily.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Data Security</h3>
+                    <p>Your data is encrypted and secure. We prioritize your privacy and data protection.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <h3>High Performance</h3>
+                    <p>Faster training for model development. Scalable infrastructure for large datasets.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section id="how-it-works" class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Upload Dataset</h3>
+                    <p>Import your training dataset</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Configure Model</h3>
+                    <p>Select model type and adjust parameters easily</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Train Model</h3>
+                    <p>Watch your model train in real-time with live metrics</p>
+                </div>
+                <div class="step-arrow">
+                    <i class="fas fa-arrow-right"></i>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Deploy & Use</h3>
+                    <p>Deploy your model and start making predictions</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Novandri</h2>
+            <p>Novandri is a cutting-edge AI development platform designed to democratize machine learning. Whether you're a data scientist, developer, or business professional, our tools make it simple to build, train, and deploy powerful ML models without extensive coding knowledge.</p>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="cta-section">
+        <div class="container">
+            <h2>Ready to Build Your Next ML Model?</h2>
+            <p>Join thousands of developers and data scientists using Novandri</p>
+            <button class="btn btn-secondary" onclick="redirectToStreamlit()">Get Started Now</button>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Novandri</h4>
+                    <p>Empowering AI development for everyone</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#about">About</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Novandri. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
