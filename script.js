@@ -5,6 +5,46 @@ function redirectToStreamlit() {
 
 // Smooth scroll for mobile navigation
 document.addEventListener('DOMContentLoaded', function() {
+    // Page load animations
+    const navbar = document.querySelector('.navbar');
+    const hero = document.querySelector('.hero');
+    const heroContent = document.querySelector('.hero-content');
+    const features = document.querySelectorAll('.feature-card');
+    const steps = document.querySelectorAll('.step');
+    const sections = document.querySelectorAll('.features, .how-it-works, .about, .cta-section');
+    
+    // Animate navbar
+    if (navbar) {
+        navbar.classList.add('navbar-animate-in');
+    }
+    
+    // Animate hero
+    if (hero) {
+        hero.classList.add('hero-animate-in');
+    }
+    
+    // Animate hero content with stagger
+    if (heroContent) {
+        heroContent.style.animation = 'slideInUp 0.8s ease-out 0.2s both';
+    }
+    
+    // Animate feature cards with stagger
+    features.forEach((card, index) => {
+        card.style.animation = `scaleIn 0.6s ease-out ${0.4 + index * 0.1}s both`;
+    });
+    
+    // Animate steps with stagger
+    steps.forEach((step, index) => {
+        if (!step.classList.contains('step-arrow')) {
+            step.style.animation = `slideInUp 0.6s ease-out ${0.8 + index * 0.15}s both`;
+        }
+    });
+    
+    // Animate sections
+    sections.forEach((section, index) => {
+        section.style.animation = `fadeIn 0.8s ease-out ${1.2 + index * 0.2}s both`;
+    });
+    
     // Add active class to current navigation item
     const navLinks = document.querySelectorAll('.nav-links a');
     
