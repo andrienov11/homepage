@@ -11,7 +11,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroContent = document.querySelector('.hero-content');
     const features = document.querySelectorAll('.feature-card');
     const steps = document.querySelectorAll('.step');
-    const sections = document.querySelectorAll('.features, .how-it-works, .about, .cta-section');
+    const sections = document.querySelectorAll('.features, .how-it-works, .python-library, .about, .cta-section');
+    const codeBlocks = document.querySelectorAll('.code-block');
+    const featureHighlights = document.querySelectorAll('.feature-highlight');
     
     // Animate navbar
     if (navbar) {
@@ -43,6 +45,16 @@ document.addEventListener('DOMContentLoaded', function() {
     // Animate sections
     sections.forEach((section, index) => {
         section.style.animation = `fadeIn 0.8s ease-out ${1.2 + index * 0.2}s both`;
+    });
+    
+    // Animate code blocks
+    codeBlocks.forEach((block, index) => {
+        block.style.animation = `slideInUp 0.6s ease-out ${2.2 + index * 0.15}s both`;
+    });
+    
+    // Animate feature highlights
+    featureHighlights.forEach((highlight, index) => {
+        highlight.style.animation = `scaleIn 0.6s ease-out ${2.5 + index * 0.1}s both`;
     });
     
     // Add active class to current navigation item

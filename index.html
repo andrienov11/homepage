@@ -18,6 +18,7 @@
             <ul class="nav-links">
                 <li><a href="#features">Features</a></li>
                 <li><a href="#how-it-works">How It Works</a></li>
+                <li><a href="#python-library">Python</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#contact" class="cta-link">Get Started</a></li>
             </ul>
@@ -169,6 +170,62 @@
         </div>
     </section>
 
+    <!-- Python Library Section -->
+    <section id="python-library" class="python-library">
+        <div class="container">
+            <h2>Python Library Package</h2>
+            <p class="section-subtitle">Deploy models programmatically with our Python package</p>
+            
+            <div class="library-content">
+                <div class="installation-block">
+                    <h3><i class="fas fa-download"></i> Installation</h3>
+                    <div class="code-block">
+                        <code>pip install novandri</code>
+                    </div>
+                </div>
+
+                <div class="usage-block">
+                    <h3><i class="fas fa-code"></i> Usage Example</h3>
+                    <div class="code-block full-code">
+                        <code><span class="keyword">import</span> pandas <span class="keyword">as</span> pd<br>
+<span class="keyword">from</span> novandri <span class="keyword">import</span> predict_from_package<br>
+<br>
+<span class="comment"># Load input data</span><br>
+data = pd.read_excel(<span class="string">"new_data.xlsx"</span>)<br>
+<br>
+<span class="comment"># Make predictions using trained model</span><br>
+result_df = predict_from_package(<br>
+&nbsp;&nbsp;&nbsp;&nbsp;package_path=<span class="string">"model_package.zip"</span>,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;data_df=data,<br>
+&nbsp;&nbsp;&nbsp;&nbsp;input_cols=[<span class="string">"x1"</span>, <span class="string">"x2"</span>, <span class="string">"x3"</span>]<br>
+)<br>
+<br>
+<span class="comment"># Save results</span><br>
+result_df.to_excel(<span class="string">"prediction_result.xlsx"</span>, index=<span class="keyword">False</span>)</code>
+                    </div>
+                </div>
+
+                <div class="features-highlight">
+                    <div class="feature-highlight">
+                        <i class="fas fa-box"></i>
+                        <h4>Model Packages</h4>
+                        <p>Deploy trained models as portable ZIP packages</p>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-database"></i>
+                        <h4>Data Integration</h4>
+                        <p>Works seamlessly with pandas DataFrames</p>
+                    </div>
+                    <div class="feature-highlight">
+                        <i class="fas fa-bolt"></i>
+                        <h4>Fast Predictions</h4>
+                        <p>Optimized for batch prediction operations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
@@ -198,6 +255,7 @@
                     <ul>
                         <li><a href="#features">Features</a></li>
                         <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#python-library">Python</a></li>
                         <li><a href="#about">About</a></li>
                     </ul>
                 </div>
