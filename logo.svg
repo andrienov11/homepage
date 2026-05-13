@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW X8 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="66cm" height="29.5cm" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 66000 29500"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:#332C2B;stroke-width:400}
+    .str1 {stroke:#332C2B;stroke-width:400;stroke-linejoin:round}
+    .fil2 {fill:none}
+    .fil1 {fill:#FEFEFE}
+    .fil0 {fill:#332C2B}
+   ]]>
+  </style>
+ </defs>
+ <g id="Layer_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0 str0" cx="29061" cy="9810" r="144"/>
+  <circle class="fil0 str0" cx="29060" cy="14765" r="144"/>
+  <circle class="fil0 str0" cx="29058" cy="19623" r="144"/>
+  <circle class="fil0 str0" cx="38649" cy="9825" r="144"/>
+  <circle class="fil0 str0" cx="38647" cy="14780" r="144"/>
+  <circle class="fil1 str0" cx="33864" cy="17921" r="144"/>
+  <circle class="fil1 str0" cx="33867" cy="11507" r="144"/>
+  <circle class="fil1 str0" cx="33862" cy="14791" r="144"/>
+  <circle class="fil0 str0" cx="38638" cy="19640" r="144"/>
+  <polyline class="fil2 str1" points="29061,9810 33867,11507 29060,14765 33862,14791 "/>
+  <line class="fil2 str0" x1="29060" y1="14765" x2="33864" y2= "17921" />
+  <polyline class="fil2 str1" points="33862,14791 29061,9810 33864,17921 "/>
+  <polyline class="fil2 str1" points="33867,11507 29058,19623 33862,14791 "/>
+  <line class="fil2 str1" x1="29058" y1="19623" x2="33864" y2= "17921" />
+  <polyline class="fil2 str0" points="38649,9825 33867,11507 38647,14780 "/>
+  <line class="fil2 str0" x1="33867" y1="11507" x2="38638" y2= "19640" />
+  <polyline class="fil2 str1" points="38649,9825 33864,17921 38647,14780 "/>
+  <line class="fil2 str0" x1="33864" y1="17921" x2="38638" y2= "19640" />
+  <polyline class="fil2 str0" points="38649,9825 33862,14791 38647,14780 "/>
+  <polyline class="fil2 str0" points="33867,11507 33862,14791 38638,19640 "/>
+  <line class="fil2 str0" x1="33862" y1="14791" x2="33864" y2= "17921" />
+ </g>
+</svg>
