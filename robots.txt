@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://novandri.web.id/sitemap.xml
