@@ -1,6 +1,6 @@
 // Redirect to Streamlit app
 function redirectToStreamlit() {
-    window.location.href = 'https://app.novandri.web.id/';
+    window.location.href = 'https://novandri.streamlit.app/';
 }
 
 // Smooth scroll for mobile navigation
